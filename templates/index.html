@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fraud Detection System</title>
+
+<!-- Responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Fraud Detection System</h1>
+
+<form action="/predict" method="post">
+
+<input type="number" step="any" name="amount" placeholder="Amount" required>
+
+<input type="number" step="any" name="oldbalanceOrg" placeholder="Old Balance Origin" required>
+
+<input type="number" step="any" name="newbalanceOrig" placeholder="New Balance Origin" required>
+
+<input type="number" step="any" name="oldbalanceDest" placeholder="Old Balance Destination" required>
+
+<input type="number" step="any" name="newbalanceDest" placeholder="New Balance Destination" required>
+
+<select name="type" required>
+<option value="">Select Transaction Type</option>
+<option value="PAYMENT">PAYMENT</option>
+<option value="TRANSFER">TRANSFER</option>
+<option value="CASH_OUT">CASH_OUT</option>
+<option value="DEBIT">DEBIT</option>
+</select>
+
+<button type="submit">Predict Fraud</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
