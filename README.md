@@ -13,22 +13,30 @@ Provide a simple web interface for real-time fraud prediction.
 
 Technologies Used
 
-Programming Language
+Programming Language:
+
 Python
 
-Machine Learning
+Machine Learning:
 
 Scikit-learn
+
 Pandas
+
 NumPy
 
-Web Development
+Web Development:
+
 Flask
+
 HTML
+
 CSS
 
-Tools
+Tools:
+
 Jupyter Notebook
+
 VS Code
 
 Dataset:
