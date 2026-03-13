@@ -40,6 +40,9 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 Features
 
 Machine Learning–based fraud detection model
+
 Data preprocessing and model training
+
 Web interface for transaction input
+
 Real-time prediction results
