@@ -43,7 +43,7 @@ Dataset:
 The dataset used for training the model contains financial transaction records labeled as fraudulent or legitimate.
 
 Dataset Source:
-https://www.kaggle.com/datasets/
+https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset
 
 Features
 
