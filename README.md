@@ -4,7 +4,7 @@ A machine learning-based web application designed to detect fraudulent financial
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
